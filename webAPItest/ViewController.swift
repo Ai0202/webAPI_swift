@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         //let request = URLRequest(url: url!)
         
         //test
+        //let url2 = URL(string: "http://localhost/web/webAPI_sample/index.php?date=2018%2F07%2F17")
         let url2 = URL(string: "https://web-api-sample.herokuapp.com/?date=2018%2F07%2F19")
         let request = URLRequest(url: url2!)
         
